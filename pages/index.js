@@ -1,7 +1,12 @@
 import { useState } from 'react';
 import Head from 'next/head';
-import '../styles/globals.css';
-
+export default function Home() {
+  return (
+    <div>
+      <h1>Welcome to Joe Knows</h1>
+    </div>
+  );
+}
 export default function Home() {
   const [question, setQuestion] = useState('');
   const [answer, setAnswer] = useState('');
